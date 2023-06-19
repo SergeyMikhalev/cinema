@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+    <include file="db/001_ddl_create_table_files.sql" relativeToChangelogFile="true"/>
+    <include file="db/002_ddl_create_table_genres.sql" relativeToChangelogFile="true"/>
+    <include file="db/003_ddl_create_table_films.sql" relativeToChangelogFile="true"/>
+    <include file="db/004_create_table_halls.sql" relativeToChangelogFile="true"/>
+    <include file="db/005_create_table_film_sessions.sql" relativeToChangelogFile="true"/>
+    <include file="db/006_create_table_users.sql" relativeToChangelogFile="true"/>
+    <include file="db/007_create_table_tickets.sql" relativeToChangelogFile="true"/>
+    <include file="db/008_dml_insert_into_genres.sql" relativeToChangelogFile="true"/>
+    <include file="db/009_dml_insert_dumb_file.sql" relativeToChangelogFile="true"/>
+    <include file="db/010_dml_insert_into_films.sql" relativeToChangelogFile="true"/>
+</databaseChangeLog>
